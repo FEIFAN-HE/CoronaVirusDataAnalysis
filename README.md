@@ -1,6 +1,6 @@
 # Taking a Deep Look Into the Outbreak of Corona Virus
 
-The purpose of this paper is perform data analysis on the data set ***Novel Corona Virus 2019*** to gather insights on the outbreak of the Corona Virus.
+The purpose of this paper is perform data analysis on the data set ***Novel Corona Virus 2019*** to gather insights on the outbreak of the Corona Virus to date(2/22/2020).
 
 ## Data Set
 **Dataset Citation:**
@@ -46,6 +46,8 @@ US|60.0|0.0|5.0|0.077098|0.000000
 
 ## Taking a Look at the Impact Excluding Mainland China and the Curises
 
+Let's see which what countries are impacted
+
 ```python
 # plot bar graph and pie chart for confirmed case of corona virus distribution excluding the cruises and china  
 df_by_country_excl = df_by_country[~df_by_country.index.isin(['Others', 'Mainland China'])]  
@@ -64,8 +66,8 @@ plt.axis('equal')
 plot_grap()
 ```
 
-
+![enter image description here](charts/charts1.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA5OTg3MDEsLTI5MjQ1MzYxLDkyMD
-I0MTM3NywxMDU3MDc4Njc3XX0=
+eyJoaXN0b3J5IjpbLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLT
+I5MjQ1MzYxLDkyMDI0MTM3NywxMDU3MDc4Njc3XX0=
 -->
