@@ -71,8 +71,10 @@ plot_grap()
   <img src="charts/chart2.png" width="400" /> 
 </p>
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzg1MDQ2OCwxMTYwMTYwNDI5LC0xND
-I2NjExMzgxLC0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEz
-NzcsMTA1NzA3ODY3N119
+eyJoaXN0b3J5IjpbLTE5MTQ0Nzc3NjAsMTE2MDE2MDQyOSwtMT
+QyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOTIwMjQx
+Mzc3LDEwNTcwNzg2NzddfQ==
 -->
