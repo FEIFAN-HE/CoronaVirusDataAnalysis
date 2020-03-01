@@ -5,7 +5,7 @@ The purpose of this paper is perform data analysis on the data set ***Novel Coro
 **Dataset Citation:**
 Kaggle.com. (2020). _Novel Corona Virus 2019 Dataset_. [online] Available at: https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset [Accessed 1 Mar. 2020].
 
-To begin out analysis, let's take a look at the schema of the dataset, the format is as follows
+To begin our analysis, let's take a look at the schema of the dataset, the format is as follows
 
 SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|Recovered
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13,7 +13,7 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 2|01/22/2020|Beijing|Mainland China|1/22/2020 17:00|14.0|0.0|0.0
 3|01/22/2020|Chongqing|Mainland China|1/22/2020 17:00|6.0|0.0|0.0
 
-Since the 
+Since the data for each province is not present in all dates(some were not continuiously recordered and )
 ```python
 # let's aggregate by the country instead of province  
 df_by_country = df.groupby(['Country/Region', 'Province/State']).last()\  
@@ -37,6 +37,6 @@ Others|695.0|2.0|1.0|0.893052|0.287770
 Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyNzU4MTk5LC0yOTI0NTM2MSw5MjAyND
-EzNzcsMTA1NzA3ODY3N119
+eyJoaXN0b3J5IjpbMjA3NzI4NjM4NCwtMjkyNDUzNjEsOTIwMj
+QxMzc3LDEwNTcwNzg2NzddfQ==
 -->
