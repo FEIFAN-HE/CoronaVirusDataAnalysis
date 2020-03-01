@@ -172,9 +172,9 @@ for region in ["Others", "Mainland China"]:
 
 ## Conclusion
 There are a lot of useful information that can be drawn based on the findings in this project, they are as follows:
-1. adsf
+1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89%
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAxMDk0MjQsLTIxMDcyODA5NjMsNT
+eyJoaXN0b3J5IjpbLTE1MzAxNDM3MjEsLTIxMDcyODA5NjMsNT
 czNzgzODg5LC02MDE2MDE2MCwxODE3NTUwMzkxLDExNjAxNjA0
 MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1MzYxLD
 kyMDI0MTM3NywxMDU3MDc4Njc3XX0=
