@@ -251,15 +251,12 @@ for region in ["Others", "Mainland China"]:
 ## Conclusion
 There are a lot of useful information that can be drawn based on the findings in this project, let's summarize the finding:
 1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% which are the most severe regions. The other regions are still under control as of 02/22/2020
-2. Hubei in Mainland China are the most impated province with 64084 confirmed cases, where as the second most severe province
+2. Hubei in Mainland China is the most impated province with 64084 confirmed cases, where as the second most severe province Guangdong has 1339 confirmed cases, with is 47 time more!
 3. 
-4. Mainland China |Hubei                                   |64084.0
-.               |Guangdong                                |1339.0
-64084.0 / 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3Njg4MDg1MSwxMjM1MzM4OTMxLC0xNT
-MwMTQzNzIxLC0yMTA3MjgwOTYzLDU3Mzc4Mzg4OSwtNjAxNjAx
-NjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC
-0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3
-ODY3N119
+eyJoaXN0b3J5IjpbODQyNDY4Nzg0LDEyMzUzMzg5MzEsLTE1Mz
+AxNDM3MjEsLTIxMDcyODA5NjMsNTczNzgzODg5LC02MDE2MDE2
+MCwxODE3NTUwMzkxLDExNjAxNjA0MjksLTE0MjY2MTEzODEsLT
+E2OTA5OTg3MDEsLTI5MjQ1MzYxLDkyMDI0MTM3NywxMDU3MDc4
+Njc3XX0=
 -->
