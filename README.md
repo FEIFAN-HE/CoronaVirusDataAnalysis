@@ -97,8 +97,44 @@ for region in ["Others", "Mainland China"]:
         plt.title("Corona Virus Confirmed Count for %s - %s" %(region, province))  
         plot_grap()
 ```
+
+<p float="left">
+  <img src="charts/chart3.png" width="200" /> 
+  <img src="charts/chart4.png" width="200" /> 
+  <img src="charts/chart5.png" width="200" /> 
+  <img src="charts/chart6.png" width="200" /> 
+  <img src="charts/chart7.png" width="200" /> 
+  <img src="charts/chart8.png" width="200" /> 
+  <img src="charts/chart9.png" width="200" /> 
+  <img src="charts/chart10.png" width="200" /> 
+  <img src="charts/chart11.png" width="200" /> 
+  <img src="charts/chart12.png" width="200" /> 
+  <img src="charts/chart13.png" width="200" /> 
+  <img src="charts/chart14.png" width="200" /> 
+  <img src="charts/chart15.png" width="200" /> 
+  <img src="charts/chart16.png" width="200" /> 
+  <img src="charts/chart17.png" width="200" /> 
+  <img src="charts/chart18.png" width="200" /> 
+  <img src="charts/chart19.png" width="200" /> 
+  <img src="charts/chart20.png" width="200" /> 
+  <img src="charts/chart21.png" width="200" /> 
+  <img src="charts/chart22.png" width="200" /> 
+  <img src="charts/chart23.png" width="200" /> 
+  <img src="charts/chart24.png" width="200" /> 
+  <img src="charts/chart25.png" width="200" /> 
+  <img src="charts/chart26.png" width="200" /> 
+  <img src="charts/chart27.png" width="200" /> 
+  <img src="charts/chart28.png" width="200" /> 
+  <img src="charts/chart29.png" width="200" /> 
+  <img src="charts/chart30.png" width="200" /> 
+  <img src="charts/chart31.png" width="200" /> 
+  <img src="charts/chart32.png" width="200" /> 
+  <img src="charts/chart33.png" width="200" /> 
+  <img src="charts/chart34.png" width="200" /> 
+  <img src="charts/chart35.png" width="200" /> 
+</p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTYwMTYwLDE4MTc1NTAzOTEsMTE2MD
-E2MDQyOSwtMTQyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUz
-NjEsOTIwMjQxMzc3LDEwNTcwNzg2NzddfQ==
+eyJoaXN0b3J5IjpbLTEwNDQzMTgyNSwtNjAxNjAxNjAsMTgxNz
+U1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC0xNjkwOTk4
+NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3ODY3N119
 -->
