@@ -73,7 +73,9 @@ plot_grap()
 
 ## Taking a look at the Impact of Each Province in Mainland China and the Cruises
 
-Let's investigate further at each of the provinces at Mainland China and Cruises to get a general idea of what an outbreak would look like
+Let's investigate further at each of the provinces at Mainland China and Cruises to get a general idea of what an outbreak would look like.
+
+A pattern is slowly emerging
 
 ```python
 # plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
@@ -96,7 +98,7 @@ for region in ["Others", "Mainland China"]:
         plot_grap()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTQwMjE5MywxODE3NTUwMzkxLDExNj
-AxNjA0MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1
-MzYxLDkyMDI0MTM3NywxMDU3MDc4Njc3XX0=
+eyJoaXN0b3J5IjpbLTYwMTYwMTYwLDE4MTc1NTAzOTEsMTE2MD
+E2MDQyOSwtMTQyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUz
+NjEsOTIwMjQxMzc3LDEwNTcwNzg2NzddfQ==
 -->
