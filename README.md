@@ -19,7 +19,7 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 ## Taking a Look at the Impact for All Countries
 Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values on that date, instead let's get the last entry for each province and aggregate confirmed # for the provinces; we can safely assume the last entry for each province is the latest date for the last recorded.
 
-From the chart below, we already see some interesting findings. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China already had an severe outbreak, and investigating further could give us some useful information about how the outbreak will look like.
+From the table below, we already see some interesting findings. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China already had an severe outbreak, and investigating further could give us some useful information about how the outbreak will look like.
 
 ```python
 # let's aggregate by the country instead of province  
@@ -137,12 +137,15 @@ for region in ["Others", "Mainland China"]:
 There are 3 visible stages in the graphs:
 1) In the initial period the graph concaves upward, showing a exponential growth in # of confirmed cases (usually lasts for approximately 10 days).
 2) There's a period of steady growth which looks linear (usually lasts for approximately 10 days).
-3) The growth started to slow down and flatten out, showing a dramatic decrease in rate for # of comfied cases (usually lasts for approximately 10 days).
+3) The growth started to slow down and flatten out, showing a dramatic decrease in rate for # of confirmed cases (usually lasts for approximately 10 days).
+
 ![](charts/chart36.png)
 
+
+## Conclusion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4OTE3MzgzLC0yMTA3MjgwOTYzLDU3Mz
-c4Mzg4OSwtNjAxNjAxNjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5
-LC0xNDI2NjExMzgxLC0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5Mj
-AyNDEzNzcsMTA1NzA3ODY3N119
+eyJoaXN0b3J5IjpbMjE0Njk4MjA5MiwtMjEwNzI4MDk2Myw1Nz
+M3ODM4ODksLTYwMTYwMTYwLDE4MTc1NTAzOTEsMTE2MDE2MDQy
+OSwtMTQyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOT
+IwMjQxMzc3LDEwNTcwNzg2NzddfQ==
 -->
