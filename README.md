@@ -146,11 +146,12 @@ for region in ["Others", "Mainland China"]:
     provinces = df_selected_region['Province/State'].unique()  
     x = y = None  
   
-  def format_ticks(value, tick_number):  
+    def format_ticks(value, tick_number):  
         return x[tick_number] if tick_number % 3 == 0 else ""  
   
-  # More cod
-  
+    # ... Code for next section ...
+    
+    # 
     if region == "Mainland China":  
         fig, ax = plt.subplots()  
         plt.title("Corona Virus Rate of Growth")  
@@ -169,8 +170,8 @@ for region in ["Others", "Mainland China"]:
 
 ## Conclusion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTM5NjA0NSwtMjEwNzI4MDk2Myw1Nz
-M3ODM4ODksLTYwMTYwMTYwLDE4MTc1NTAzOTEsMTE2MDE2MDQy
-OSwtMTQyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOT
-IwMjQxMzc3LDEwNTcwNzg2NzddfQ==
+eyJoaXN0b3J5IjpbLTEyNTM3ODYwODcsLTIxMDcyODA5NjMsNT
+czNzgzODg5LC02MDE2MDE2MCwxODE3NTUwMzkxLDExNjAxNjA0
+MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1MzYxLD
+kyMDI0MTM3NywxMDU3MDc4Njc3XX0=
 -->
