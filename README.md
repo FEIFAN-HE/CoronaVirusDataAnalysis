@@ -13,7 +13,7 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 2|01/22/2020|Beijing|Mainland China|1/22/2020 17:00|14.0|0.0|0.0
 3|01/22/2020|Chongqing|Mainland China|1/22/2020 17:00|6.0|0.0|0.0
 
-Since the data for each province is not present in all dates(some were not continuiously recordered and )
+Since the data for each province is not present in all dates(some provinces were not continuiously recordered), thus simply take the confirmed 
 ```python
 # let's aggregate by the country instead of province  
 df_by_country = df.groupby(['Country/Region', 'Province/State']).last()\  
@@ -37,6 +37,6 @@ Others|695.0|2.0|1.0|0.893052|0.287770
 Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzI4NjM4NCwtMjkyNDUzNjEsOTIwMj
+eyJoaXN0b3J5IjpbMTQ2OTE3NjMzMywtMjkyNDUzNjEsOTIwMj
 QxMzc3LDEwNTcwNzg2NzddfQ==
 -->
