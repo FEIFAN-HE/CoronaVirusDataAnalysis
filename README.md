@@ -15,7 +15,7 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 3|01/22/2020|Chongqing|Mainland China|1/22/2020 17:00|6.0|0.0|0.0
 
 ## Taking a Look at the Impact for All Countries
-Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values. Instead, let
+Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values; Instead
 
 ```python
 # let's aggregate by the country instead of province  
@@ -40,6 +40,6 @@ Others|695.0|2.0|1.0|0.893052|0.287770
 Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwMzM5Njk1LC0yOTI0NTM2MSw5MjAyND
+eyJoaXN0b3J5IjpbOTAzNzUwNDg5LC0yOTI0NTM2MSw5MjAyND
 EzNzcsMTA1NzA3ODY3N119
 -->
