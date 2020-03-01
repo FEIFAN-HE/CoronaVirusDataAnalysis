@@ -139,7 +139,7 @@ There are 3 visible stages in the graphs:
 2) There's a period of steady growth which looks linear (usually lasts for approximately 10 days).
 3) The growth started to slow down and flatten out, showing a dramatic decrease in rate for # of confirmed cases (usually lasts for approximately 10 days).
 
-The breakout 
+The breakout cycle is approximately 30 days until the # of confirmed cases get under control.
 
 ```python
 # plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
@@ -172,9 +172,9 @@ for region in ["Others", "Mainland China"]:
 
 ## Conclusion
 There are a lot of useful information that can be drawn based on the findings in this project, they are as follows:
-1) 
+1. adsf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI5MDMwNzYsLTIxMDcyODA5NjMsNT
+eyJoaXN0b3J5IjpbLTEyODAxMDk0MjQsLTIxMDcyODA5NjMsNT
 czNzgzODg5LC02MDE2MDE2MCwxODE3NTUwMzkxLDExNjAxNjA0
 MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1MzYxLD
 kyMDI0MTM3NywxMDU3MDc4Njc3XX0=
