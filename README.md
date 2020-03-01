@@ -45,7 +45,7 @@ US|60.0|0.0|5.0|0.077098|0.000000
 
 
 ## Taking a Look at the Impact Excluding Mainland China and the Curises
-Since Mainland China and Others(Curises) contain the most confirmed Corona Viruse cases, we can take a more detailed look at that later. Let's first take a look at some of the other impacted countries that also has the potential for an outbreak. Those contries include 
+Since Mainland China and Others(Curises) contain the most confirmed Corona Viruse cases, we can take a more detailed look at that later. Let's first take a look at some of the other impacted countries that also has the potential for an outbreak. Those contries include Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, Lebanon
 ```python
 # plot bar graph and pie chart for confirmed case of corona virus distribution excluding the cruises and china  
 df_by_country_excl = df_by_country[~df_by_country.index.isin(['Others', 'Mainland China'])]  
@@ -73,7 +73,7 @@ plot_grap()
 ## Taking a look at the Impact of Each Province/Curise
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xND
-I2NjExMzgxLC0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEz
-NzcsMTA1NzA3ODY3N119
+eyJoaXN0b3J5IjpbLTE4NTk5MTExNSwxODE3NTUwMzkxLDExNj
+AxNjA0MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1
+MzYxLDkyMDI0MTM3NywxMDU3MDc4Njc3XX0=
 -->
