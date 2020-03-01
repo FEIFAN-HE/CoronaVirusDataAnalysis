@@ -16,9 +16,9 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 
 
 ## Taking a Look at the Impact for All Countries
-Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values, instead let's get the last entry for each province and aggregate confirmed # for the provinces; we can safely assume the last entry for each province is the latest date for the last recorded.
+Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values on that date, instead let's get the last entry for each province and aggregate confirmed # for the provinces; we can safely assume the last entry for each province is the latest date for the last recorded.
 
-From the chart below, we already see some interesting findings. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China already had an outbreak, and investigating further 
+From the chart below, we already see some interesting findings. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China already had an outbreak, and investigating further could give us some useful information about how the outbreak will look like.
 
 ```python
 # let's aggregate by the country instead of province  
@@ -44,7 +44,8 @@ Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 
 
+## Taking a Look at the Impact for All Countries Excluding Mainland China and the Curises
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAxOTk2NTMsLTI5MjQ1MzYxLDkyMD
-I0MTM3NywxMDU3MDc4Njc3XX0=
+eyJoaXN0b3J5IjpbNTE2NjI2MDAyLC0yOTI0NTM2MSw5MjAyND
+EzNzcsMTA1NzA3ODY3N119
 -->
