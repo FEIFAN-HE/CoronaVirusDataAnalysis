@@ -24,7 +24,7 @@ print(df_by_country)
 ```
 
 Country/Region|Confirmed|Deaths|Recovered|Confirmed %|Death Ratio %
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 Australia|22.0|0.0|11.0|0.028269|0.000000
 Canada|12.0|0.0|3.0|0.015420|0.000000
 Germany|5.0|0.0|0.0|0.006425|0.000000
@@ -37,6 +37,6 @@ Others|695.0|2.0|1.0|0.893052|0.287770
 Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM5MjU4ODksLTI5MjQ1MzYxLDkyMD
-I0MTM3NywxMDU3MDc4Njc3XX0=
+eyJoaXN0b3J5IjpbMzI2ODI0NTcwLC0yOTI0NTM2MSw5MjAyND
+EzNzcsMTA1NzA3ODY3N119
 -->
