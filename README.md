@@ -63,7 +63,9 @@ plt.legend(patches, x, loc=4)
 plt.axis('equal')  
 plot_grap()
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjIzMDkwMywtMjkyNDUzNjEsOTIwMj
-QxMzc3LDEwNTcwNzg2NzddfQ==
+eyJoaXN0b3J5IjpbLTE2OTA5OTg3MDEsLTI5MjQ1MzYxLDkyMD
+I0MTM3NywxMDU3MDc4Njc3XX0=
 -->
