@@ -27,7 +27,8 @@ df_by_country = df.groupby(['Country/Region', 'Province/State']).last()\
                   .groupby(level=0).sum()[['Confirmed', 'Deaths', 'Recovered']]  
 df_by_country['Confirmed %'] = df_by_country['Confirmed'] / sum(df_by_country['Confirmed']) * 100  
 df_by_country['Death Ratio %'] = df_by_country['Deaths'] / df_by_country['Confirmed'] * 100  
-print(df_by_country)
+print(df_by_country.sort_values(by=['Confirmed'], ascending=False))  
+print(df.groupby(['Country/Region', 'Province/State']).last()[['Confirmed']].sort_values(by=['Confirmed'], ascending=False))
 ```
 
 Country/Region|Confirmed|Deaths|Recovered|Confirmed %|Death Ratio %
@@ -247,7 +248,7 @@ for region in ["Others", "Mainland China"]:
 There are a lot of useful information that can be drawn based on the findings in this project, they are as follows:
 1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89%
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1MjQwMzAxLDEyMzUzMzg5MzEsLTE1Mz
+eyJoaXN0b3J5IjpbOTY4OTU3OTA1LDEyMzUzMzg5MzEsLTE1Mz
 AxNDM3MjEsLTIxMDcyODA5NjMsNTczNzgzODg5LC02MDE2MDE2
 MCwxODE3NTUwMzkxLDExNjAxNjA0MjksLTE0MjY2MTEzODEsLT
 E2OTA5OTg3MDEsLTI5MjQ1MzYxLDkyMDI0MTM3NywxMDU3MDc4
