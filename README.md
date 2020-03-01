@@ -1,11 +1,12 @@
 
-# Taking a Deep Look Into the Outbreak of Corona Virus
 
-The purpose of this paper is perform data analysis on the data set ***Novel Corona Virus 2019*** to gather insights on the outbreak of the Corona Virus to date(2/22/2020).
+# Taking a Deep Look Into the Outbreak of CoronaVirus
+
+The purpose of this paper is perform data analysis on the data set ***Novel CoronaVirus 2019*** to gather insights on the outbreak of the CoronaVirus to date(2/22/2020).
 
 ## Data Set
 **Dataset Citation:**
-Kaggle.com. (2020). _Novel Corona Virus 2019 Dataset_. [online] Available at: https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset [Accessed 1 Mar. 2020].
+Kaggle.com. (2020). _Novel CoronaVirus 2019 Dataset_. [online] Available at: https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset [Accessed 1 Mar. 2020].
 
 To begin our analysis, let's take a look at the schema of the dataset, the format is as follows
 
@@ -17,9 +18,9 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 
 
 ## Taking a Look at the Impact for All Countries
-Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values on that date, instead let's get the last entry for each province and aggregate confirmed # for the provinces; we can safely assume the last entry for each province is the latest date for the last recorded.
+Since the data for each province is not present in all dates(some provinces were not continuously recorded for all dates), we can not simply get the last date(2/22/2020) and aggregate the values on that date, instead let's get the last entry for each province and aggregate confirmed # for the provinces; we can safely assume the last entry for each province is the latest date for the last recorded.
 
-From the table below, we already see some interesting findings. Mainland China accounts for 98%(Hubei being most severe) of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China had s severe outbreak with a death rate of approxmately 3%, and investigating further could give us some useful information about what the outbreak looks like.
+From the table below, we already see some interesting findings. Mainland China accounts for 98%(Hubei being most severe) of the all CoronaVirus cases and others(which consist of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China had a severe outbreak with a death rate of approxmately 3%, and investigating further could give us some useful information about what the outbreak looks like.
 
 ```python
 # let's aggregate by the country instead of province  
@@ -125,19 +126,19 @@ Lebanon        |None                                        |1.0
 US             |Washington                                  |1.0
 
 ## Taking a Look at the Impact Excluding Mainland China and the Cruises
-Since Mainland China and Others(Cruises) contain the most confirmed Corona Viruse cases, we can take a more detailed look at that later. Let's first take a breif look at some of the other impacted countries that also has the potential to outbreak. These contries include and in order of # confirmed cases: Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon.
+Since Mainland China and Others(Cruises) contain the most confirmed CoronaVirus cases, we can take a more detailed look at that later. Let's first take a brief look at some of the other impacted countries that also have the potential to outbreak. These countries include and in order of # confirmed cases: Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon.
 ```python
-# plot bar graph and pie chart for confirmed case of corona virus distribution excluding the cruises and china  
+# plot bar graph and pie chart for confirmed case of CoronaVirus distribution excluding the cruises and china  
 df_by_country_excl = df_by_country[~df_by_country.index.isin(['Others', 'Mainland China'])]  
 x, y = list(df_by_country_excl.index), list(df_by_country_excl['Confirmed'])  
   
 plt.subplots()  
-plt.title("Corona Virus Geographic Distribution(Excluding China and Cruises)")  
+plt.title("CoronaVirus Geographic Distribution(Excluding China and Cruises)")  
 plt.barh(x, y)  
 plot_grap()  
   
 plt.subplots()  
-plt.title("Corona Virus Geographic Distribution(Excluding China and Cruises)")  
+plt.title("CoronaVirus Geographic Distribution(Excluding China and Cruises)")  
 patches, texts = plt.pie(y)  
 plt.legend(patches, x, loc=4)  
 plt.axis('equal')  
@@ -155,7 +156,7 @@ plot_grap()
 Let's investigate further at each of the provinces at Mainland China and Cruises to get a general idea of what an outbreak would look like.
 
 ```python
-# plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
+# plot distribution of CoronaVirus for china and the cruises; individually as well as the aggregated graph  
 for region in ["Others", "Mainland China"]:  
     df_selected_region = df[df['Country/Region'] == region]  
     provinces = df_selected_region['Province/State'].unique()  
@@ -171,7 +172,7 @@ for region in ["Others", "Mainland China"]:
         plt.plot(x, y)  
         fig.autofmt_xdate()  
         ax.xaxis.set_major_formatter(plt.FuncFormatter(format_ticks))  
-        plt.title("Corona Virus Confirmed Count for %s - %s" %(region, province))  
+        plt.title("CoronaVirus Confirmed Count for %s - %s" %(region, province))  
         plot_grap()
 ```
 
@@ -221,7 +222,7 @@ There are 3 visible stages in the graphs:
 The breakout cycle is approximately 30 days until the # of confirmed cases get under control.
 
 ```python
-# plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
+# plot distribution of CoronaVirus for china and the cruises; individually as well as the aggregated graph  
 for region in ["Others", "Mainland China"]:  
     df_selected_region = df[df['Country/Region'] == region]  
     provinces = df_selected_region['Province/State'].unique()  
@@ -235,7 +236,7 @@ for region in ["Others", "Mainland China"]:
     # Code for this section
     if region == "Mainland China":  
         fig, ax = plt.subplots()  
-        plt.title("Corona Virus Rate of Growth")  
+        plt.title("CoronaVirus Rate of Growth")  
         for province in provinces:  
             df_by_prov = df[df['Province/State'] == province].ffill()  
             x, y = list(df_by_prov['ObservationDate']), list(df_by_prov['Confirmed'] / df_by_prov['Confirmed'].max())  
@@ -250,9 +251,9 @@ for region in ["Others", "Mainland China"]:
 
 ## Conclusion
 There are a lot of useful information that can be drawn based on the findings in this project, let's summarize the finding:
-1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% which are the most severe regions. The other regions are still under control as of 02/22/2020
+1. Mainland China accounts for 98% of all the CoronaVirus cases and others(which consist of Diamond Princess cruise ship and Cruise Ship) account for 0.89% which are the most severe regions. The other regions are still under control as of 02/22/2020
 2. Death rate is approximately 3%
-3. Hubei in Mainland China is the most impated province with 64084 confirmed cases, where as the second most severe province Guangdong has 1339 confirmed cases, with is 47 time more!
+3. Hubei in Mainland China is the most impacted province with 64084 confirmed cases, where as the second most severe province Guangdong has 1339 confirmed cases, with 47 times more!
 4. Aside from Mainland China and the 2 cruises, the countries that are impacted the most are listed below in the order of severity
 	- Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon
 5. Based on the charts for Mainland China and the cruises, a breakout cycle is approximately 1 month, and it can be broken up into 3 different stages
@@ -260,11 +261,11 @@ There are a lot of useful information that can be drawn based on the findings in
 	2. Steady growth(apx. 10 days)
 	3. Flattens out(apx. 10 days)
 
-Even if the Corona virus has not had a breakout outside of Mainland China and the cruises, it's still a very dangerous virus and can cause significant casualties around the globe. The smallest spark can cause it grow exponentially in the first 10 days and by the first 20 days it may reach thousands if not tens of thousands in population for that country. The best preventive measure is to quarantine the infected individuals and put out the spark before it turns into a fire.
+Even if the CoronaVirus has not had a breakout outside of Mainland China and the cruises, it's still a very dangerous virus and can cause significant casualties around the globe. The smallest spark can cause exponentially growth in the first 10 days and by the first 20 days it may reach thousands if not tens of thousands in population for that country. The best preventive measure is to quarantine the infected individuals and put out the spark before it turns into a fire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTg2ODcyOSwxMjM1MzM4OTMxLC0xNT
-MwMTQzNzIxLC0yMTA3MjgwOTYzLDU3Mzc4Mzg4OSwtNjAxNjAx
-NjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC
-0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3
-ODY3N119
+eyJoaXN0b3J5IjpbNTMzNjUzNjgwLC0yNjU4Njg3MjksMTIzNT
+MzODkzMSwtMTUzMDE0MzcyMSwtMjEwNzI4MDk2Myw1NzM3ODM4
+ODksLTYwMTYwMTYwLDE4MTc1NTAzOTEsMTE2MDE2MDQyOSwtMT
+QyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOTIwMjQx
+Mzc3LDEwNTcwNzg2NzddfQ==
 -->
