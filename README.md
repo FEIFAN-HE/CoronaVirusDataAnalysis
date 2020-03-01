@@ -252,11 +252,12 @@ for region in ["Others", "Mainland China"]:
 There are a lot of useful information that can be drawn based on the findings in this project, let's summarize the finding:
 1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% which are the most severe regions. The other regions are still under control as of 02/22/2020
 2. Hubei in Mainland China is the most impated province with 64084 confirmed cases, where as the second most severe province Guangdong has 1339 confirmed cases, with is 47 time more!
-3. 
+3. Aside from Mainland China and the 2 cruises, the countries that are impacted the most are listed below in the order of severity
+	- Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyNDY4Nzg0LDEyMzUzMzg5MzEsLTE1Mz
-AxNDM3MjEsLTIxMDcyODA5NjMsNTczNzgzODg5LC02MDE2MDE2
-MCwxODE3NTUwMzkxLDExNjAxNjA0MjksLTE0MjY2MTEzODEsLT
-E2OTA5OTg3MDEsLTI5MjQ1MzYxLDkyMDI0MTM3NywxMDU3MDc4
-Njc3XX0=
+eyJoaXN0b3J5IjpbLTUwNDQ1MjYwNCwxMjM1MzM4OTMxLC0xNT
+MwMTQzNzIxLC0yMTA3MjgwOTYzLDU3Mzc4Mzg4OSwtNjAxNjAx
+NjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC
+0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3
+ODY3N119
 -->
