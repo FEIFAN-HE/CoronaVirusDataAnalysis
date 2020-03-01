@@ -260,11 +260,11 @@ There are a lot of useful information that can be drawn based on the findings in
 	2. Steady growth(apx. 10 days)
 	3. Flattens out(apx. 10 days)
 
-Even if the Corona virus has not had a breakout outside of Mainland China and the cruises, it's still a very dangerous virus and can cause significant casualties around the globe. The smallest spark can cause it grow exponentially in the first 10 days and by the first 20 days it may reach thousands if not tens of thousands in population for that country. 
+Even if the Corona virus has not had a breakout outside of Mainland China and the cruises, it's still a very dangerous virus and can cause significant casualties around the globe. The smallest spark can cause it grow exponentially in the first 10 days and by the first 20 days it may reach thousands if not tens of thousands in population for that country. The best preventive measure is quarantine the infected individual 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjU3NzMyOSwxMjM1MzM4OTMxLC0xNT
-MwMTQzNzIxLC0yMTA3MjgwOTYzLDU3Mzc4Mzg4OSwtNjAxNjAx
-NjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC
-0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3
-ODY3N119
+eyJoaXN0b3J5IjpbLTE4MTk3MTcwNjYsMTIzNTMzODkzMSwtMT
+UzMDE0MzcyMSwtMjEwNzI4MDk2Myw1NzM3ODM4ODksLTYwMTYw
+MTYwLDE4MTc1NTAzOTEsMTE2MDE2MDQyOSwtMTQyNjYxMTM4MS
+wtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOTIwMjQxMzc3LDEwNTcw
+Nzg2NzddfQ==
 -->
