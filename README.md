@@ -254,8 +254,9 @@ There are a lot of useful information that can be drawn based on the findings in
 2. Hubei in Mainland China is the most impated province with 64084 confirmed cases, where as the second most severe province Guangdong has 1339 confirmed cases, with is 47 time more!
 3. Aside from Mainland China and the 2 cruises, the countries that are impacted the most are listed below in the order of severity
 	- Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon
+4. Based on the charts for Mainland China and the cruises, a breakout cycle is approximately 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDQ1MjYwNCwxMjM1MzM4OTMxLC0xNT
+eyJoaXN0b3J5IjpbLTUzMDQ0MjMwNSwxMjM1MzM4OTMxLC0xNT
 MwMTQzNzIxLC0yMTA3MjgwOTYzLDU3Mzc4Mzg4OSwtNjAxNjAx
 NjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC
 0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3
