@@ -13,7 +13,15 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 2|01/22/2020|Beijing|Mainland China|1/22/2020 17:00|14.0|0.0|0.0
 3|01/22/2020|Chongqing|Mainland China|1/22/2020 17:00|6.0|0.0|0.0
 
-Since 
+Since the 
+```python
+# let's aggregate by the country instead of province  
+df_by_country = df.groupby(['Country/Region', 'Province/State']).last()\  
+                  .groupby(level=0).sum()[['Confirmed', 'Deaths', 'Recovered']]  
+df_by_country['Confirmed %'] = df_by_country['Confirmed'] / sum(df_by_country['Confirmed']) * 100  
+df_by_country['Death Ratio %'] = df_by_country['Deaths'] / df_by_country['Confirmed'] * 100  
+print(df_by_country)
+```
 
 Country/Region|Confirmed|Deaths|Recovered|Confirmed %|Death Ratio %
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -29,6 +37,6 @@ Others|695.0|2.0|1.0|0.893052|0.287770
 Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDgzOTEwNSwtMjkyNDUzNjEsOTIwMj
-QxMzc3LDEwNTcwNzg2NzddfQ==
+eyJoaXN0b3J5IjpbNzAyNzU4MTk5LC0yOTI0NTM2MSw5MjAyND
+EzNzcsMTA1NzA3ODY3N119
 -->
