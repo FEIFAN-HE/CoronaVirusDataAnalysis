@@ -71,7 +71,10 @@ plot_grap()
 
 
 ## Taking a look at the Impact of Each Province in Mainland China and the Curises
-```
+
+Let's investigate further at each of the province  to get a general idea of 
+
+```python
 # plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
 for region in ["Others", "Mainland China"]:  
     df_selected_region = df[df['Country/Region'] == region]  
@@ -90,8 +93,9 @@ for region in ["Others", "Mainland China"]:
         ax.xaxis.set_major_formatter(plt.FuncFormatter(format_ticks))  
         plt.title("Corona Virus Confirmed Count for %s - %s" %(region, province))  
         plot_grap()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2NzA5MTEyLDE4MTc1NTAzOTEsMTE2MD
-E2MDQyOSwtMTQyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUz
-NjEsOTIwMjQxMzc3LDEwNTcwNzg2NzddfQ==
+eyJoaXN0b3J5IjpbMTcyNDA5ODczNCwxODE3NTUwMzkxLDExNj
+AxNjA0MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1
+MzYxLDkyMDI0MTM3NywxMDU3MDc4Njc3XX0=
 -->
