@@ -251,7 +251,7 @@ for region in ["Others", "Mainland China"]:
 
 ## Conclusion
 There are a lot of useful information that can be drawn based on the findings in this project which can be summarizes to the following:
-1. Mainland China accounts for 98% of all the CoronaVirus cases and others(which consist of Diamond Princess cruise ship and Cruise Ship) account for 0.89% which are the most severe regions. The other regions are still under control as of 02/22/2020
+1. Mainland China accounts for 98% of all the CoronaVirus cases and others(which consist of Diamond Princess cruise ship and Cruise Ship) account for 0.89% which are the most severe regions. Other countries are still under control as of 02/22/2020
 2. Death rate is approximately 3%
 3. Hubei in Mainland China is the most impacted province with 64084 confirmed cases, where as the second most severe province Guangdong has 1339 confirmed cases, with 47 times more!
 4. Aside from Mainland China and the 2 cruises, the countries that are impacted the most are listed below in the order of severity
@@ -263,9 +263,9 @@ There are a lot of useful information that can be drawn based on the findings in
 
 Even if the CoronaVirus has not had a breakout outside of Mainland China and the cruises, it's still a very dangerous virus and can cause significant casualties around the globe. The smallest spark can cause exponentially growth in the first 10 days and by the first 20 days it may reach thousands if not tens of thousands in population for that country. The best preventive measure is to quarantine the infected individuals and put out the spark before it turns into a fire.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzNDEzODI3LDUzMzY1MzY4MCwtMjY1OD
-Y4NzI5LDEyMzUzMzg5MzEsLTE1MzAxNDM3MjEsLTIxMDcyODA5
-NjMsNTczNzgzODg5LC02MDE2MDE2MCwxODE3NTUwMzkxLDExNj
-AxNjA0MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1
-MzYxLDkyMDI0MTM3NywxMDU3MDc4Njc3XX0=
+eyJoaXN0b3J5IjpbMTA2NjI3Mzg4Nyw1MzM2NTM2ODAsLTI2NT
+g2ODcyOSwxMjM1MzM4OTMxLC0xNTMwMTQzNzIxLC0yMTA3Mjgw
+OTYzLDU3Mzc4Mzg4OSwtNjAxNjAxNjAsMTgxNzU1MDM5MSwxMT
+YwMTYwNDI5LC0xNDI2NjExMzgxLC0xNjkwOTk4NzAxLC0yOTI0
+NTM2MSw5MjAyNDEzNzcsMTA1NzA3ODY3N119
 -->
