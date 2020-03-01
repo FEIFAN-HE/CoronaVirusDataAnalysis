@@ -137,11 +137,11 @@ for region in ["Others", "Mainland China"]:
 There are 3 visible stages in the graphs:
 1) In the initial period, the graph concaves upward, showing a exponential growth in # of confirmed cases.
 2) There's a period of steady growth which looks linear.
-3) The growth started to slow down started to flatten out, showing 
+3) The growth started to slow down started to flatten out, showing a dramatic decrease in # of confied cases.
+![](charts/chart36.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYyMDY5NjEsLTYwMTYwMTYwLDE4MT
-c1NTAzOTEsMTE2MDE2MDQyOSwtMTQyNjYxMTM4MSwtMTY5MDk5
-ODcwMSwtMjkyNDUzNjEsOTIwMjQxMzc3LDEwNTcwNzg2NzddfQ
-==
+eyJoaXN0b3J5IjpbNTczNzgzODg5LC02MDE2MDE2MCwxODE3NT
+UwMzkxLDExNjAxNjA0MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3
+MDEsLTI5MjQ1MzYxLDkyMDI0MTM3NywxMDU3MDc4Njc3XX0=
 -->
