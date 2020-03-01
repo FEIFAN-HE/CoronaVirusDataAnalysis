@@ -13,22 +13,22 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 2|01/22/2020|Beijing|Mainland China|1/22/2020 17:00|14.0|0.0|0.0
 3|01/22/2020|Chongqing|Mainland China|1/22/2020 17:00|6.0|0.0|0.0
 
-We can group by th
+Since 
 
-Country/Region|Confirmed|Deaths|Recovered|Confirmed|%|Death|Ratio|%
+Country/Region|Confirmed|Deaths|Recovered|Confirmed %|Death Ratio %
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 Australia|22.0|0.0|11.0|0.028269|0.000000
 Canada|12.0|0.0|3.0|0.015420|0.000000
 Germany|5.0|0.0|0.0|0.006425|0.000000
-Hong|Kong|69.0|2.0|6.0|0.088663|2.898551
+Hong Kong|69.0|2.0|6.0|0.088663|2.898551
 Israel|1.0|0.0|0.0|0.001285|0.000000
 Lebanon|1.0|0.0|0.0|0.001285|0.000000
 Macau|10.0|0.0|6.0|0.012850|0.000000
-Mainland|China|76922.0|2441.0|22687.0|98.842245|3.173344
+Mainland China|76922.0|2441.0|22687.0|98.842245|3.173344
 Others|695.0|2.0|1.0|0.893052|0.287770
 Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTY0MzE0MywtMjkyNDUzNjEsOTIwMj
+eyJoaXN0b3J5IjpbMTk1MDgzOTEwNSwtMjkyNDUzNjEsOTIwMj
 QxMzc3LDEwNTcwNzg2NzddfQ==
 -->
