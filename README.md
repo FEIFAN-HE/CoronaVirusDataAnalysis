@@ -46,8 +46,6 @@ US|60.0|0.0|5.0|0.077098|0.000000
 
 ## Taking a Look at the Impact Excluding Mainland China and the Curises
 
-Let's see what countries are impacted.
-
 ```python
 # plot bar graph and pie chart for confirmed case of corona virus distribution excluding the cruises and china  
 df_by_country_excl = df_by_country[~df_by_country.index.isin(['Others', 'Mainland China'])]  
@@ -72,9 +70,10 @@ plot_grap()
 </p>
 
 
+## Taking a look at the Impact of Each Province/Curise
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ0Nzc3NjAsMTE2MDE2MDQyOSwtMT
+eyJoaXN0b3J5IjpbLTE3MDk2NjUwMDksMTE2MDE2MDQyOSwtMT
 QyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOTIwMjQx
 Mzc3LDEwNTcwNzg2NzddfQ==
 -->
