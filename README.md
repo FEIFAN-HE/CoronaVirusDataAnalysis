@@ -139,12 +139,37 @@ There are 3 visible stages in the graphs:
 2) There's a period of steady growth which looks linear (usually lasts for approximately 10 days).
 3) The growth started to slow down and flatten out, showing a dramatic decrease in rate for # of confirmed cases (usually lasts for approximately 10 days).
 
+```python
+# plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
+for region in ["Others", "Mainland China"]:  
+    df_selected_region = df[df['Country/Region'] == region]  
+    provinces = df_selected_region['Province/State'].unique()  
+    x = y = None  
+  
+  def format_ticks(value, tick_number):  
+        return x[tick_number] if tick_number % 3 == 0 else ""  
+  
+  # More cod
+  
+    if region == "Mainland China":  
+        fig, ax = plt.subplots()  
+        plt.title("Corona Virus Rate of Growth")  
+        for province in provinces:  
+            df_by_prov = df[df['Province/State'] == province].ffill()  
+            x, y = list(df_by_prov['ObservationDate']), list(df_by_prov['Confirmed'] / df_by_prov['Confirmed'].max())  
+            plt.plot(x, y)  
+            fig.autofmt_xdate()  
+            ax.xaxis.set_major_formatter(plt.FuncFormatter(format_ticks))  
+        ax.legend()  
+        plot_grap()
+```
+
 ![](charts/chart36.png)
 
 
 ## Conclusion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Njk4MjA5MiwtMjEwNzI4MDk2Myw1Nz
+eyJoaXN0b3J5IjpbMTc0NTM5NjA0NSwtMjEwNzI4MDk2Myw1Nz
 M3ODM4ODksLTYwMTYwMTYwLDE4MTc1NTAzOTEsMTE2MDE2MDQy
 OSwtMTQyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOT
 IwMjQxMzc3LDEwNTcwNzg2NzddfQ==
