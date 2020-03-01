@@ -7,14 +7,15 @@ Kaggle.com. (2020). _Novel Corona Virus 2019 Dataset_. [online] Available at: ht
 
 To begin out analysis, let's take a look at the schema of the dataset, the format is as follows
 
-	
-```
-SNo,ObservationDate,Province/State,Country/Region,Last Update,Confirmed,Deaths,Recovered
-1,01/22/2020,Anhui,Mainland China,1/22/2020 17:00,1.0,0.0,0.0
-2,01/22/2020,Beijing,Mainland China,1/22/2020 17:00,14.0,0.0,0.0
-3,01/22/2020,Chongqing,Mainland China,1/22/2020 17:00,6.0,0.0,0.0
-```
+SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|Recovered
+| --- | --- | --- | --- | --- | --- | --- | --- |
+1|01/22/2020|Anhui|Mainland China|1/22/2020 17:00|1.0|0.0|0.0
+2|01/22/2020|Beijing|Mainland China|1/22/2020 17:00|14.0|0.0|0.0
+3|01/22/2020|Chongqing|Mainland China|1/22/2020 17:00|6.0|0.0|0.0
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjI1MDIyNyw5MjAyNDEzNzcsMTA1Nz
-A3ODY3N119
+eyJoaXN0b3J5IjpbLTI5MjQ1MzYxLDkyMDI0MTM3NywxMDU3MD
+c4Njc3XX0=
 -->
