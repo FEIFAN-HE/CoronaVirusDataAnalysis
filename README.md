@@ -1,5 +1,6 @@
-
 # Taking a Deep Look Into the Outbreak of Corona Virus
+
+## datase
 The purpose of this paper is perform data analysis on the data set ***Novel Corona Virus 2019*** to gather insights on the outbreak of the Corona Virus.
 
 **Dataset Citation:**
@@ -38,6 +39,6 @@ Others|695.0|2.0|1.0|0.893052|0.287770
 Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDExMzU4NjYsLTI5MjQ1MzYxLDkyMD
-I0MTM3NywxMDU3MDc4Njc3XX0=
+eyJoaXN0b3J5IjpbODYzODk1NTYyLC0yOTI0NTM2MSw5MjAyND
+EzNzcsMTA1NzA3ODY3N119
 -->
