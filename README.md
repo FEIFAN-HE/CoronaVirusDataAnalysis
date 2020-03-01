@@ -19,7 +19,7 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 ## Taking a Look at the Impact for All Countries
 Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values on that date, instead let's get the last entry for each province and aggregate confirmed # for the provinces; we can safely assume the last entry for each province is the latest date for the last recorded.
 
-From the table below, we already see some interesting findings. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China already had severe outbreak, and investigating further could give us some useful information about what the outbreak looks like.
+From the table below, we already see some interesting findings. Mainland China accounts for 98%(Hubei being most severe) of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China already had severe outbreak, and investigating further could give us some useful information about what the outbreak looks like.
 
 ```python
 # let's aggregate by the country instead of province  
@@ -250,11 +250,12 @@ for region in ["Others", "Mainland China"]:
 
 ## Conclusion
 There are a lot of useful information that can be drawn based on the findings in this project, let's summarize the finding:
-1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% whi
+1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% which are the most severe regions. The other regions are still under control as of 02/22/2020
+2. Hubei in Mainland China
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ0OTk5NjEsMTIzNTMzODkzMSwtMT
-UzMDE0MzcyMSwtMjEwNzI4MDk2Myw1NzM3ODM4ODksLTYwMTYw
-MTYwLDE4MTc1NTAzOTEsMTE2MDE2MDQyOSwtMTQyNjYxMTM4MS
-wtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOTIwMjQxMzc3LDEwNTcw
-Nzg2NzddfQ==
+eyJoaXN0b3J5IjpbLTcwOTkyMDYxMCwxMjM1MzM4OTMxLC0xNT
+MwMTQzNzIxLC0yMTA3MjgwOTYzLDU3Mzc4Mzg4OSwtNjAxNjAx
+NjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC
+0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3
+ODY3N119
 -->
