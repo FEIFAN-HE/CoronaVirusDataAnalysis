@@ -75,8 +75,10 @@ plot_grap()
 
 Let's investigate further at each of the provinces at Mainland China and Cruises to get a general idea of what an outbreak would look like.
 
-A pattern is slowly emerging, there are 3 visible stages :
-1) 
+A pattern is slowly emerging, let's aggregate the charts to see if there
+
+there are 3 visible stages in the graphs:
+1) in the initial period, the growth is exponencial
 
 ```python
 # plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
@@ -135,7 +137,7 @@ for region in ["Others", "Mainland China"]:
   <img src="charts/chart35.png" width="200" /> 
 </p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NjY2OTQ3NSwtNjAxNjAxNjAsMTgxNz
+eyJoaXN0b3J5IjpbLTI5NDk2ODM2NCwtNjAxNjAxNjAsMTgxNz
 U1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC0xNjkwOTk4
 NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3ODY3N119
 -->
