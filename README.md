@@ -67,12 +67,12 @@ plot_grap()
 ```
 
 <p float="left">
-  <img src="charts/chart1.png" width="100" />
-  <img src="charts/chart2.png" width="100" /> 
+  <img src="charts/chart1.png" width="500" />
+  <img src="charts/chart2.png" width="500" /> 
 </p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDUwNjExNiwxMTYwMTYwNDI5LC0xND
-I2NjExMzgxLC0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEz
-NzcsMTA1NzA3ODY3N119
+eyJoaXN0b3J5IjpbLTE4Mjk2Nzk2MTIsMTE2MDE2MDQyOSwtMT
+QyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOTIwMjQx
+Mzc3LDEwNTcwNzg2NzddfQ==
 -->
