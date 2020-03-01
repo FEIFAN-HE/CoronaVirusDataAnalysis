@@ -16,7 +16,7 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 
 
 ## Taking a Look at the Impact for All Countries
-Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values, instead let's the last entry for each province and aggregate confirmed # for the provinces.
+Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values, instead let's the last entry for each province and aggregate confirmed # for the provinces; we can safely assume the 
 
 ```python
 # let's aggregate by the country instead of province  
@@ -41,6 +41,6 @@ Others|695.0|2.0|1.0|0.893052|0.287770
 Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTM3MzU0MSwtMjkyNDUzNjEsOTIwMj
+eyJoaXN0b3J5IjpbLTE4NDY4ODM1OSwtMjkyNDUzNjEsOTIwMj
 QxMzc3LDEwNTcwNzg2NzddfQ==
 -->
