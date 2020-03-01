@@ -18,7 +18,8 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 ## Taking a Look at the Impact for All Countries
 Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values, instead let's get the last entry for each province and aggregate confirmed # for the provinces; we can safely assume the last entry for each province is the latest date for the last recorded.
 
-From the chart below, we already see some interesting findings. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case
+From the chart below, we already see some interesting findings. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China already had an outbreak, and investigating further 
+
 ```python
 # let's aggregate by the country instead of province  
 df_by_country = df.groupby(['Country/Region', 'Province/State']).last()\  
@@ -44,6 +45,6 @@ US|60.0|0.0|5.0|0.077098|0.000000
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTkzMzcwMywtMjkyNDUzNjEsOTIwMj
-QxMzc3LDEwNTcwNzg2NzddfQ==
+eyJoaXN0b3J5IjpbLTE3MzAxOTk2NTMsLTI5MjQ1MzYxLDkyMD
+I0MTM3NywxMDU3MDc4Njc3XX0=
 -->
