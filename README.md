@@ -9,12 +9,12 @@ To begin out analysis, let's take a look at the schema of the dataset, the forma
 
 	
 `
-SNo,ObservationDate,Province/State,Country/Region,Last Update,Confirmed,Deaths,Recovered  
+SNo,ObservationDate,Province/State,Country/Region,Last Update,Confirmed,Deaths,Recovered
 1,01/22/2020,Anhui,Mainland China,1/22/2020 17:00,1.0,0.0,0.0
 2,01/22/2020,Beijing,Mainland China,1/22/2020 17:00,14.0,0.0,0.0
 3,01/22/2020,Chongqing,Mainland China,1/22/2020 17:00,6.0,0.0,0.0
 `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM3ODIyNyw5MjAyNDEzNzcsMTA1Nz
-A3ODY3N119
+eyJoaXN0b3J5IjpbNDg5ODY1Njc3LDkyMDI0MTM3NywxMDU3MD
+c4Njc3XX0=
 -->
