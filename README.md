@@ -35,17 +35,17 @@ Data for confirmed cases by country
 
 Country/Region|Confirmed|Deaths|Recovered|Confirmed %|Death Ratio %
 | --- | --- | --- | --- | --- | --- |
-Australia|22.0|0.0|11.0|0.028269|0.000000
-Canada|12.0|0.0|3.0|0.015420|0.000000
-Germany|5.0|0.0|0.0|0.006425|0.000000
-Hong Kong|69.0|2.0|6.0|0.088663|2.898551
-Israel|1.0|0.0|0.0|0.001285|0.000000
-Lebanon|1.0|0.0|0.0|0.001285|0.000000
-Macau|10.0|0.0|6.0|0.012850|0.000000
 Mainland China|76922.0|2441.0|22687.0|98.842245|3.173344
 Others|695.0|2.0|1.0|0.893052|0.287770
-Taiwan|26.0|1.0|2.0|0.033409|3.846154
+Hong Kong|69.0|2.0|6.0|0.088663|2.898551
 US|60.0|0.0|5.0|0.077098|0.000000
+Taiwan|26.0|1.0|2.0|0.033409|3.846154
+Australia|22.0|0.0|11.0|0.028269|0.000000
+Canada|12.0|0.0|3.0|0.015420|0.000000
+Macau|10.0|0.0|6.0|0.012850|0.000000
+Germany|5.0|0.0|0.0|0.006425|0.000000
+Israel|1.0|0.0|0.0|0.001285|0.000000
+Lebanon|1.0|0.0|0.0|0.001285|0.000000
 
 Data for confirmed cases by province
 
@@ -252,7 +252,7 @@ for region in ["Others", "Mainland China"]:
 There are a lot of useful information that can be drawn based on the findings in this project, they are as follows:
 1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89%
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzUyMzQ1MywxMjM1MzM4OTMxLC0xNT
+eyJoaXN0b3J5IjpbLTk1Mzg4NTc2NywxMjM1MzM4OTMxLC0xNT
 MwMTQzNzIxLC0yMTA3MjgwOTYzLDU3Mzc4Mzg4OSwtNjAxNjAx
 NjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC
 0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3
