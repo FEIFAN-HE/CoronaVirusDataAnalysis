@@ -31,6 +31,7 @@ print(df_by_country.sort_values(by=['Confirmed'], ascending=False))
 print(df.groupby(['Country/Region', 'Province/State']).last()[['Confirmed']].sort_values(by=['Confirmed'], ascending=False))
 ```
 Data for confirmed cases by country
+
 Country/Region|Confirmed|Deaths|Recovered|Confirmed %|Death Ratio %
 | --- | --- | --- | --- | --- | --- |
 Australia|22.0|0.0|11.0|0.028269|0.000000
@@ -250,9 +251,9 @@ for region in ["Others", "Mainland China"]:
 There are a lot of useful information that can be drawn based on the findings in this project, they are as follows:
 1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89%
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDY0NTk0OSwxMjM1MzM4OTMxLC0xNT
-MwMTQzNzIxLC0yMTA3MjgwOTYzLDU3Mzc4Mzg4OSwtNjAxNjAx
-NjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC
-0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3
-ODY3N119
+eyJoaXN0b3J5IjpbLTExNTQyMzY2MjksMTIzNTMzODkzMSwtMT
+UzMDE0MzcyMSwtMjEwNzI4MDk2Myw1NzM3ODM4ODksLTYwMTYw
+MTYwLDE4MTc1NTAzOTEsMTE2MDE2MDQyOSwtMTQyNjYxMTM4MS
+wtMTY5MDk5ODcwMSwtMjkyNDUzNjEsOTIwMjQxMzc3LDEwNTcw
+Nzg2NzddfQ==
 -->
