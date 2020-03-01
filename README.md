@@ -169,87 +169,88 @@ for region in ["Others", "Mainland China"]:
 
 ![](charts/chart36.png)
 
+
 Country/Region | Province/State                          |Confirmed
 | --- | --- | --- |
 Mainland China |Hubei                                   |64084.0
-               |Guangdong                                |1339.0
-               |Henan                                    |1270.0
-               |Zhejiang                                 |1205.0
-               |Hunan                                    |1013.0
-               |Anhui                                     |989.0
-               |Jiangxi                                   |934.0
-               |Shandong                                  |750.0
+	               |Guangdong                                |1339.0
+	               |Henan                                    |1270.0
+	               |Zhejiang                                 |1205.0
+	               |Hunan                                    |1013.0
+	               |Anhui                                     |989.0
+	               |Jiangxi                                   |934.0
+	               |Shandong                                  |750.0
 Others         |Diamond Princess cruise ship              |634.0
 Mainland China |Jiangsu                                   |631.0
-               |Chongqing                                 |573.0
-               |Sichuan                                   |526.0
-               |Heilongjiang                              |479.0
-               |Beijing                                   |399.0
-               |Shanghai                                  |335.0
-               |Hebei                                     |309.0
-               |Fujian                                    |293.0
-               |Guangxi                                   |249.0
-               |Shaanxi                                   |245.0
-               |Yunnan                                    |174.0
-               |Hainan                                    |168.0
-               |Guizhou                                   |146.0
-               |Tianjin                                   |135.0
-               |Shanxi                                    |132.0
-               |Liaoning                                  |121.0
-               |Jilin                                      |91.0
-               |Gansu                                      |91.0
-               |Xinjiang                                   |76.0
-               |Inner Mongolia                             |75.0
-               |Ningxia                                    |71.0
+	               |Chongqing                                 |573.0
+	               |Sichuan                                   |526.0
+	               |Heilongjiang                              |479.0
+	               |Beijing                                   |399.0
+	               |Shanghai                                  |335.0
+	               |Hebei                                     |309.0
+	               |Fujian                                    |293.0
+	               |Guangxi                                   |249.0
+	               |Shaanxi                                   |245.0
+	               |Yunnan                                    |174.0
+	               |Hainan                                    |168.0
+	               |Guizhou                                   |146.0
+	               |Tianjin                                   |135.0
+	               |Shanxi                                    |132.0
+	               |Liaoning                                  |121.0
+	               |Jilin                                      |91.0
+	               |Gansu                                      |91.0
+	               |Xinjiang                                   |76.0
+	               |Inner Mongolia                             |75.0
+	               |Ningxia                                    |71.0
 Hong Kong      |Hong Kong                                  |69.0
 Others         |Cruise Ship                                |61.0
 Taiwan         |Taiwan                                     |26.0
 Mainland China |Qinghai                                    |18.0
 US             |Ashland, NE                                |11.0
-               |Omaha, NE (From Diamond Princess)          |11.0
+	               |Omaha, NE (From Diamond Princess)          |11.0
 Macau          |Macau                                      |10.0
 Australia      |From Diamond Princess                       |7.0
 Canada         |British Columbia                            |6.0
 US             |Travis, CA (From Diamond Princess)          |5.0
-               |Travis, CA                                  |5.0
+	               |Travis, CA                                  |5.0
 Germany        |Bavaria                                     |5.0
 Australia      |Queensland                                  |5.0
-               |New South Wales                             |4.0
-               |Victoria                                    |4.0
+	               |New South Wales                             |4.0
+	               |Victoria                                    |4.0
 Canada         |Ontario                                     |3.0
 US             |Chicago, IL                                 |2.0
-               |Santa Clara, CA                             |2.0
-               |San Diego County, CA                        |2.0
-               |San Benito, CA                              |2.0
-               |Lackland, TX (From Diamond Princess)        |2.0
-               |Lackland, TX                                |2.0
-               |Illinois                                    |2.0
-               |California                                  |2.0
+	               |Santa Clara, CA                             |2.0
+	               |San Diego County, CA                        |2.0
+	               |San Benito, CA                              |2.0
+	               |Lackland, TX (From Diamond Princess)        |2.0
+	               |Lackland, TX                                |2.0
+	               |Illinois                                    |2.0
+	               |California                                  |2.0
 Australia      |South Australia                             |2.0
 Canada         |Toronto, ON                                 |2.0
 US             |Chicago                                     |1.0
-               |Arizona                                     |1.0
+	               |Arizona                                     |1.0
 Israel         |From Diamond Princess                       |1.0
 Mainland China |Tibet                                       |1.0
 US             |Tempe, AZ                                   |1.0
-               |Seattle, WA                                 |1.0
+	               |Seattle, WA                                 |1.0
 Canada         |London, ON                                  |1.0
 US             |Sacramento County, CA                       |1.0
-               |San Antonio, TX                             |1.0
-               |Humboldt County, CA                         |1.0
-               |Orange, CA                                  |1.0
-               |Madison, WI                                 |1.0
-               |Los Angeles, CA                             |1.0
-               |Boston, MA                                  |1.0
+	               |San Antonio, TX                             |1.0
+	               |Humboldt County, CA                         |1.0
+	               |Orange, CA                                  |1.0
+	               |Madison, WI                                 |1.0
+	               |Los Angeles, CA                             |1.0
+	               |Boston, MA                                  |1.0
 Lebanon        |None                                        |1.0
 US             |Washington                                  |1.0
-
 ## Conclusion
 There are a lot of useful information that can be drawn based on the findings in this project, they are as follows:
 1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89%
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTMzODkzMSwtMTUzMDE0MzcyMSwtMj
-EwNzI4MDk2Myw1NzM3ODM4ODksLTYwMTYwMTYwLDE4MTc1NTAz
-OTEsMTE2MDE2MDQyOSwtMTQyNjYxMTM4MSwtMTY5MDk5ODcwMS
-wtMjkyNDUzNjEsOTIwMjQxMzc3LDEwNTcwNzg2NzddfQ==
+eyJoaXN0b3J5IjpbODM1MzE3NDcsMTIzNTMzODkzMSwtMTUzMD
+E0MzcyMSwtMjEwNzI4MDk2Myw1NzM3ODM4ODksLTYwMTYwMTYw
+LDE4MTc1NTAzOTEsMTE2MDE2MDQyOSwtMTQyNjYxMTM4MSwtMT
+Y5MDk5ODcwMSwtMjkyNDUzNjEsOTIwMjQxMzc3LDEwNTcwNzg2
+NzddfQ==
 -->
