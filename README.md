@@ -135,13 +135,13 @@ for region in ["Others", "Mainland China"]:
 ## Taking a look at the Impact of Each Province in Mainland China and the Cruises (Aggregation)
 
 There are 3 visible stages in the graphs:
-1) In the initial period the graph concaves upward, showing a exponential growth in # of confirmed cases(usually lasts for 10 days).
-2) There's a period of steady growth which looks linear(usually last for ).
-3) The growth started to slow down started to flatten out, showing a dramatic decrease in # of confied cases.
+1) In the initial period the graph concaves upward, showing a exponential growth in # of confirmed cases (usually lasts for approximately 10 days).
+2) There's a period of steady growth which looks linear (usually lasts for approximately 10 days).
+3) The growth started to slow down and flatten out, showing a dramatic decrease in rate for # of comfied cases (usually lasts for approximately 10 days).
 ![](charts/chart36.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2Nzg0NzM4LC0yMTA3MjgwOTYzLDU3Mz
+eyJoaXN0b3J5IjpbNjE4OTE3MzgzLC0yMTA3MjgwOTYzLDU3Mz
 c4Mzg4OSwtNjAxNjAxNjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5
 LC0xNDI2NjExMzgxLC0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5Mj
 AyNDEzNzcsMTA1NzA3ODY3N119
