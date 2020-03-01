@@ -45,7 +45,7 @@ US|60.0|0.0|5.0|0.077098|0.000000
 
 
 ## Taking a Look at the Impact Excluding Mainland China and the Curises
-Since Mainland China and Others(Curises) contain the most confirmed Corona Viruse cases, we can take a more detailed look at that later. Let's first take a breif look at some of the other impacted countries that also has the potential for an outbreak. These contries include and in order of # confirmed cases: Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon.
+Since Mainland China and Others(Curises) contain the most confirmed Corona Viruse cases, we can take a more detailed look at that later. Let's first take a breif look at some of the other impacted countries that also has the potential to outbreak. These contries include and in order of # confirmed cases: Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon.
 ```python
 # plot bar graph and pie chart for confirmed case of corona virus distribution excluding the cruises and china  
 df_by_country_excl = df_by_country[~df_by_country.index.isin(['Others', 'Mainland China'])]  
@@ -70,10 +70,28 @@ plot_grap()
 </p>
 
 
-## Taking a look at the Impact of Each Province/Curise
-
+## Taking a look at the Impact of Each Province in Mainland China and the Curises
+```
+# plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
+for region in ["Others", "Mainland China"]:  
+    df_selected_region = df[df['Country/Region'] == region]  
+    provinces = df_selected_region['Province/State'].unique()  
+    x = y = None  
+  
+  def format_ticks(value, tick_number):  
+        return x[tick_number] if tick_number % 3 == 0 else ""  
+  
+  for province in provinces:  
+        fig, ax = plt.subplots()  
+        df_by_prov = df[df['Province/State'] == province].ffill()  
+        x, y = list(df_by_prov['ObservationDate']), list(df_by_prov['Confirmed'])  
+        plt.plot(x, y)  
+        fig.autofmt_xdate()  
+        ax.xaxis.set_major_formatter(plt.FuncFormatter(format_ticks))  
+        plt.title("Corona Virus Confirmed Count for %s - %s" %(region, province))  
+        plot_grap()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTkxMzc3MCwxODE3NTUwMzkxLDExNj
-AxNjA0MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1
-MzYxLDkyMDI0MTM3NywxMDU3MDc4Njc3XX0=
+eyJoaXN0b3J5IjpbNTE2NzA5MTEyLDE4MTc1NTAzOTEsMTE2MD
+E2MDQyOSwtMTQyNjYxMTM4MSwtMTY5MDk5ODcwMSwtMjkyNDUz
+NjEsOTIwMjQxMzc3LDEwNTcwNzg2NzddfQ==
 -->
