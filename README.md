@@ -139,6 +139,8 @@ There are 3 visible stages in the graphs:
 2) There's a period of steady growth which looks linear (usually lasts for approximately 10 days).
 3) The growth started to slow down and flatten out, showing a dramatic decrease in rate for # of confirmed cases (usually lasts for approximately 10 days).
 
+The breakout 
+
 ```python
 # plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
 for region in ["Others", "Mainland China"]:  
@@ -151,7 +153,7 @@ for region in ["Others", "Mainland China"]:
   
     # ... Code for next section ...
     
-    # 
+    # Code for this section
     if region == "Mainland China":  
         fig, ax = plt.subplots()  
         plt.title("Corona Virus Rate of Growth")  
@@ -169,8 +171,10 @@ for region in ["Others", "Mainland China"]:
 
 
 ## Conclusion
+There are a lot of useful information that can be drawn based on the findings in this project, they are as follows:
+1) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM3ODYwODcsLTIxMDcyODA5NjMsNT
+eyJoaXN0b3J5IjpbLTE5ODI5MDMwNzYsLTIxMDcyODA5NjMsNT
 czNzgzODg5LC02MDE2MDE2MCwxODE3NTUwMzkxLDExNjAxNjA0
 MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1MzYxLD
 kyMDI0MTM3NywxMDU3MDc4Njc3XX0=
