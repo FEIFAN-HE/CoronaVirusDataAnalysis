@@ -135,10 +135,10 @@ for region in ["Others", "Mainland China"]:
 ## Taking a look at the Impact of Each Province in Mainland China and the Cruises(Aggregation)
 
 there are 3 visible stages in the graphs:
-1) In the initial period, grthe growth is exponencial
+1) In the initial period, the graph concaves upward, showing a exponential growth in # of confirmed cases.
+2) There's a period of steady grwo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODIwOTA3OTQsLTYwMTYwMTYwLDE4MT
-c1NTAzOTEsMTE2MDE2MDQyOSwtMTQyNjYxMTM4MSwtMTY5MDk5
-ODcwMSwtMjkyNDUzNjEsOTIwMjQxMzc3LDEwNTcwNzg2NzddfQ
-==
+eyJoaXN0b3J5IjpbMTU2NTg1NjUxNSwtNjAxNjAxNjAsMTgxNz
+U1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC0xNjkwOTk4
+NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3ODY3N119
 -->
