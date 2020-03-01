@@ -1,3 +1,4 @@
+
 # Taking a Deep Look Into the Outbreak of Corona Virus
 
 The purpose of this paper is perform data analysis on the data set ***Novel Corona Virus 2019*** to gather insights on the outbreak of the Corona Virus to date(2/22/2020).
@@ -44,8 +45,8 @@ Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 
 
-## Taking a Look at the Impact Excluding Mainland China and the Curises
-Since Mainland China and Others(Curises) contain the most confirmed Corona Viruse cases, we can take a more detailed look at that later. Let's first take a breif look at some of the other impacted countries that also has the potential to outbreak. These contries include and in order of # confirmed cases: Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon.
+## Taking a Look at the Impact Excluding Mainland China and the Cruises
+Since Mainland China and Others(Cruises) contain the most confirmed Corona Viruse cases, we can take a more detailed look at that later. Let's first take a breif look at some of the other impacted countries that also has the potential to outbreak. These contries include and in order of # confirmed cases: Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon.
 ```python
 # plot bar graph and pie chart for confirmed case of corona virus distribution excluding the cruises and china  
 df_by_country_excl = df_by_country[~df_by_country.index.isin(['Others', 'Mainland China'])]  
@@ -70,9 +71,9 @@ plot_grap()
 </p>
 
 
-## Taking a look at the Impact of Each Province in Mainland China and the Curises
+## Taking a look at the Impact of Each Province in Mainland China and the Cruises
 
-Let's investigate further at each of the province  to get a general idea of 
+Let's investigate further at each of the provinces at Mainland China and Cruises to get a general idea of what an outbreak would look like
 
 ```python
 # plot distribution of corona virus for china and the cruises; individually as well as the aggregated graph  
@@ -95,7 +96,7 @@ for region in ["Others", "Mainland China"]:
         plot_grap()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDA5ODczNCwxODE3NTUwMzkxLDExNj
+eyJoaXN0b3J5IjpbMTAyNTQwMjE5MywxODE3NTUwMzkxLDExNj
 AxNjA0MjksLTE0MjY2MTEzODEsLTE2OTA5OTg3MDEsLTI5MjQ1
 MzYxLDkyMDI0MTM3NywxMDU3MDc4Njc3XX0=
 -->
