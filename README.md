@@ -2,7 +2,7 @@
 
 The purpose of this paper is perform data analysis on the data set ***Novel Corona Virus 2019*** to gather insights on the outbreak of the Corona Virus.
 
-## datase
+## Data Set
 **Dataset Citation:**
 Kaggle.com. (2020). _Novel Corona Virus 2019 Dataset_. [online] Available at: https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset [Accessed 1 Mar. 2020].
 
@@ -15,7 +15,7 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 3|01/22/2020|Chongqing|Mainland China|1/22/2020 17:00|6.0|0.0|0.0
 
 ## Taking a Look at the Impact for All Countries
-Since the data for each province is not present in all dates(some provinces were not continuiously recordered), thus simply take the latest row from each province and aggregate by the contry.
+Since the data for each province is not present in all dates(some provinces were not continuiously recordered), we can not simply take the last da for each provice thus simply take the latest row from each province and aggregate by the contry.
 ```python
 # let's aggregate by the country instead of province  
 df_by_country = df.groupby(['Country/Region', 'Province/State']).last()\  
@@ -39,6 +39,6 @@ Others|695.0|2.0|1.0|0.893052|0.287770
 Taiwan|26.0|1.0|2.0|0.033409|3.846154
 US|60.0|0.0|5.0|0.077098|0.000000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5MzM5MTkyLC0yOTI0NTM2MSw5MjAyND
-EzNzcsMTA1NzA3ODY3N119
+eyJoaXN0b3J5IjpbLTI3Mjk0NDkzNiwtMjkyNDUzNjEsOTIwMj
+QxMzc3LDEwNTcwNzg2NzddfQ==
 -->
