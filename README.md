@@ -66,9 +66,9 @@ plt.axis('equal')
 plot_grap()
 ```
 
-![](charts/chart1.png)![](charts/chart2.png)
+![](charts/chart1.png)![](charts/chart2  .png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTc0NzU4NDMsLTE0MjY2MTEzODEsLT
-E2OTA5OTg3MDEsLTI5MjQ1MzYxLDkyMDI0MTM3NywxMDU3MDc4
-Njc3XX0=
+eyJoaXN0b3J5IjpbMTY5NzU2MTUzMywtMTQyNjYxMTM4MSwtMT
+Y5MDk5ODcwMSwtMjkyNDUzNjEsOTIwMjQxMzc3LDEwNTcwNzg2
+NzddfQ==
 -->
