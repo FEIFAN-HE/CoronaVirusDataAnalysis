@@ -19,7 +19,7 @@ SNo|ObservationDate|Province/State|Country/Region|Last Update|Confirmed|Deaths|R
 ## Taking a Look at the Impact for All Countries
 Since the data for each province is not present in all dates(some provinces were not continuiously recordered for all dates), we can not simply get the last date(2/22/2020) and aggregate the values on that date, instead let's get the last entry for each province and aggregate confirmed # for the provinces; we can safely assume the last entry for each province is the latest date for the last recorded.
 
-From the table below, we already see some interesting findings. Mainland China accounts for 98%(Hubei being most severe) of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China already had severe outbreak with a death rate of , and investigating further could give us some useful information about what the outbreak looks like.
+From the table below, we already see some interesting findings. Mainland China accounts for 98%(Hubei being most severe) of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% of overall case. We can already tell China had s severe outbreak with a death rate of approxmately 3%, and investigating further could give us some useful information about what the outbreak looks like.
 
 ```python
 # let's aggregate by the country instead of province  
@@ -251,18 +251,18 @@ for region in ["Others", "Mainland China"]:
 ## Conclusion
 There are a lot of useful information that can be drawn based on the findings in this project, let's summarize the finding:
 1. Mainland China accounts for 98% of the all Corona Virus cases and others(which construct of Diamond Princess cruise ship and Cruise Ship) account for 0.89% which are the most severe regions. The other regions are still under control as of 02/22/2020
-2. Hubei in Mainland China is the most impated province with 64084 confirmed cases, where as the second most severe province Guangdong has 1339 confirmed cases, with is 47 time more!
-3. Aside from Mainland China and the 2 cruises, the countries that are impacted the most are listed below in the order of severity
+2. Death rate is approximately 3%
+3. Hubei in Mainland China is the most impated province with 64084 confirmed cases, where as the second most severe province Guangdong has 1339 confirmed cases, with is 47 time more!
+4. Aside from Mainland China and the 2 cruises, the countries that are impacted the most are listed below in the order of severity
 	- Hong Kong, US, Taiwan, Australia, Canada, Macau, Germany, Israel, and Lebanon
-4. Based on the charts for Mainland China and the cruises, a breakout cycle is approximately 1 month, and it can be broken up into 3 different stages
+5. Based on the charts for Mainland China and the cruises, a breakout cycle is approximately 1 month, and it can be broken up into 3 different stages
 	1. Initial breakout where the growth is exponential(apx. 10 days)
 	2. Steady growth(apx. 10 days)
 	3. Flattens out(apx. 10 days)
-5. Base 
 
 Even if the Corona virus 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MjQwNDA3MiwxMjM1MzM4OTMxLC0xNT
+eyJoaXN0b3J5IjpbLTcyNTk0NjE1OSwxMjM1MzM4OTMxLC0xNT
 MwMTQzNzIxLC0yMTA3MjgwOTYzLDU3Mzc4Mzg4OSwtNjAxNjAx
 NjAsMTgxNzU1MDM5MSwxMTYwMTYwNDI5LC0xNDI2NjExMzgxLC
 0xNjkwOTk4NzAxLC0yOTI0NTM2MSw5MjAyNDEzNzcsMTA1NzA3
